@@ -19,10 +19,10 @@ The model file runs the CNN model based on your input parameters. It can also ta
 To run the Grid Search:
 
 ```
-python CNN_GridSearch.py -geno geno_file.csv -pheno pheno_file.csv -test test_set.txt -trait colname_from_pheno_data -save save_output.txt -model_type true
+python CNN_GridSearch.py -geno geno_file.csv -pheno pheno_file.csv -test test_set.txt -trait colname_from_pheno_data -save save_output.txt 
 ```
 
 To run the CNN Model:
 ```
-python CNN_Model.py -geno geno_file.csv -pheno pheno_file.csv -test test_set.txt -trait colname_from_pheno_data -save save_output.txt -model_type true 
+python CNN_Model.py -geno geno_file.csv -pheno pheno_file.csv -test test_set.txt -trait colname_from_pheno_data -save save_output.txt
 ```
