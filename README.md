@@ -2,10 +2,10 @@
 Script for Convolutional Neural Network for the Shiu Lab - developed during iCER ACRES REU Program. 
 
 ## Environment Requirements
-- python 3.6
+- python 2.7
 - numpy
 - pandas
-- sklearn 0.21.2
+- sklearn 
 - tensorflow 2.0
 
 Tensorflow typically requires special installation. See MSU's [HPCC instructions](https://wiki.hpcc.msu.edu/display/ITH/TensorFlow)for an example. 
